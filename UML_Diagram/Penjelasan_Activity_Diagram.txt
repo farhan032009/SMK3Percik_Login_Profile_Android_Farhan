@@ -1,0 +1,7 @@
+Activity diagram pada halaman login adalah bentuk pemodelan alur kerja (workflow) dalam Unified Modeling Language (UML) yang menggambarkan urutan proses atau aktivitas yang terjadi secara berurutan, mulai dari pengguna membuka halaman login hingga berhasil masuk ke sistem atau mengalami kegagalan autentikasi.
+> alur proses dimulai dari simpul awal pada area "USER LOGIN" di mana pengguna mengakses aplikasi.
+> Sistem kemudian merespons dengan menampilkan halaman masuk atau pendaftaran tampilan login/daftar.
+> Pada tahap percabangan "Login/Daftar Akun", terdapat alur bagi pengguna yang ingin mendaftar di mana sistem menampilkan halaman pendaftaran, kemudian pengguna memasukkan informasi berupa username, email, dan kata sandi serta melakukan konfirmasi kata sandi.
+> Di sisi lain, jika pengguna memilih opsi login, pengguna langsung diminta untuk memasukkan email, username, dan kata sandi akun. Setelah itu, sistem melakukan validasi pada tahap percabangan "Kata Sandi Salah/Benar".
+> Jika data atau kata sandi bernilai salah, sistem akan mengarahkan kembali pengguna untuk mengulang pengisian data akun.
+> Jika data terbukti benar, proses autentikasi selesai.

@@ -1,0 +1,9 @@
+Flowchart (bagan alur) pada halaman login adalah diagram visual yang menggambarkan urutan langkah-langkah, proses, dan keputusan yang terjadi ketika seorang pengguna mencoba masuk (login) ke dalam suatu sistem atau aplikasi.
+
+> Alur proses dimulai dari simbol "Mulai" dimana user sudah memasuki apk.
+> Lalu langsung mengarah ke sebuah kondisi keputusan untuk memeriksa apakah pengguna sudah memiliki akun atau belum ("Sudah Punya Akun?").
+> Jika pengguna memilih "Ya", sistem akan mengarahkannya masuk ke halaman daftar (login) untuk menginputkan data berupa nama, email, dan password, yang kemudian divalidasi oleh sistem. Apabila data tersebut tidak valid, pengguna akan dikembalikan ke halaman awal untuk mengulang proses input, sedangkan jika data valid, pengguna langsung diarahkan masuk ke halaman utama.
+> Sebaliknya, jika pengguna memilih "Tidak" pada kondisi awal, pengguna akan masuk ke halaman pendaftaran dan menginputkan nama, email, serta password yang sama.
+> Sistem memeriksa ketersediaan email ("Email Tersedia?"); jika email tidak tersedia atau sudah terpakai, pengguna dikembalikan ke halaman daftar, tetapi jika tersedia, data akun baru tersebut akan disimpan ke dalam database sebelum pengguna diarahkan menuju halaman utama.
+> Diakhirnya, kedua jalur tersebut bertuju pada proses Masuk ke Halaman Utama.
+> alur diakhiri dengan simbol Selesai.
